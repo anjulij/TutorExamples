@@ -10,6 +10,8 @@ public class Circle {
         this.radius = radius;
         this.color = color;
     }
+    /* Setters will enable the programmer to change values
+    * Getters enable the programmer to retrieve those values */
     public void setRadius(int radius) {
         this.radius = radius;
     }
@@ -22,6 +24,7 @@ public class Circle {
     public String getColor() {
         return color;
     }
+    /*These are the methods that we determined that object should be able  to perform*/
     public double calculateArea(){
         return radius*radius*Math.PI;
     }
