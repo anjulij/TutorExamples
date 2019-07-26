@@ -13,6 +13,7 @@ public class Main {
         double area2 = calculateArea(radius2);
 
         */
+        int doop = 0;
 
         Circle c1 = new Circle(5, "green");
         Circle c2 = new Circle(3,"blue");
