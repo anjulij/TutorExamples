@@ -10,7 +10,7 @@ If you don't have it, download it from here: https://git-scm.com
 
 3) You can do one of the following:
    * Fork this repository by clicking the button "Fork", then follow steps 4 and 5  
-   * Follow steps 4 and 5 then remove the link between what you've downloaded and this repository by entering this command into the terminal: `git remove remote origin` and follow the steps in the Setting Up a Github project file
+   * Follow steps 4 and 5 then remove the link between what you've downloaded and this repository by entering this command into the terminal: `git remove remote origin` and follow the steps in the Setting Up a Github Project file
 
 4) In the terminal cd to where store this. Ex: `cd Desktop/Projects/MyFirstGit`
 
