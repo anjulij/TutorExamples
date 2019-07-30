@@ -14,5 +14,6 @@ If you don't have it, download it from here: https://git-scm.com
 
 4) In the terminal cd to where store this. Ex: `cd Desktop/Projects/MyFirstGit`
 
-5) Use the following command to clone this to you computer. The project link is located under "Clone or download". 
-`git clone [LINK TO PROJECT]`
+5) Use the following command to clone this to you computer. The project link is located under "Clone or download".
+   Note: use the link with "https" not "ssh" for our purposes.  Ex: https://github.com/anjulij/TutorExamples.git 
+   * `git clone [LINK TO PROJECT]`
