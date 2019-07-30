@@ -30,6 +30,7 @@ public class Circles {
 
     public void sortByRadius() {
         for (int i = 0; i < circles.length; i++) {
+            //This sort doesn't work for all cases. How do we fix it?
             if ((i + 1) != circles.length) {
                 if (circles[i].getRadius() > circles[i + 1].getRadius()) {
                     Circle temp = circles[i];
