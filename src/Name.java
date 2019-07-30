@@ -4,9 +4,11 @@ public class Name {
     public Name(char[] string){
         this.name = string;
     }
+
     public char[] getName() {
         return name;
     }
+
     public String toString(){
         String stringName = "";
         for(int index = 0; index <= name.length-1; index++){
@@ -14,7 +16,9 @@ public class Name {
         }
         return stringName;
     }
+
     public void printBackwards(){
+        //Alternative build a string, store it and print that
         for (int count = name.length -1;  count >= 0; count--){
             System.out.print(name[count]);
         }
